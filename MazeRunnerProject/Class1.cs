@@ -14,7 +14,7 @@ public interface ICollectable
         void Collect();
     }
 
-    // 2. For things that can take damage or be destroyed (e.g., Player, Destructible Wall)
+    // 2. For things that can take the damage or be destroyed (e.g., Player, Destructible Wall)
     public interface IDamageable
     {
         int Health { get; set; }
